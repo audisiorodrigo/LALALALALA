@@ -6,7 +6,7 @@
     Una de las formas de instalar Pymongo puede ser con el siguiente comando:
 **```**
         "pip install pymongo"
-**```**
+``***``
 
     Luego de tener instalado Pymongo pasaremos directamente al codigo, alli deberemos importar Pymongo y conectarlo con MongoDB
 
