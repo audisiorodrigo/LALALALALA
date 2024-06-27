@@ -4,17 +4,22 @@
 
     Antes de empezer a trabajar con "Pymongo" debemos realizar las instalaciones previas.
     Una de las formas de instalar Pymongo puede ser con el siguiente comando:
-```pymongo
 
-    Luego de tener instalado Pymongo pasaremos directamente al codigo, alli deberemos importar Pymongo y conectarlo con MongoDB
+```python
+        "pip install pymongo"
+
 ```
 
+    Luego de tener instalado Pymongo pasaremos directamente al codigo, alli deberemos importar Pymongo y conectarlo con MongoDB
 
+```python
+ 
         import pymongo
-
         myclient = pymongo.MongoClient("URL de conexion del servidor mongo")
 
-**```**
+```
+
+\
  Ahora si, empezemos con lo que nos compete...
 
 ## Crear una base de datos
